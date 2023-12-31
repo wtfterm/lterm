@@ -93,6 +93,8 @@ body {
   border-radius: 6px;
   pointer-events: none;
   opacity: 0;
+  height: auto;
+  width: 647px;
 }
 
 .swiper-slide-active .item {
