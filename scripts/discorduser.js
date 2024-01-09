@@ -43,7 +43,7 @@ sock.addEventListener("message", (e) => {
         statusdiv.classList.add("card-status-idle");
         lastState = "text-yellow-500";
         lastStatus = "card-status-idle";
-    } else if (d.discord_status === "Do Not Disturb") {
+    } else if (d.discord_status === "dnd") {
         state.classList.remove(lastState);
         statusdiv.classList.remove(lastStatus);
         state.innerHTML = "Do Not Disturb";
