@@ -126,7 +126,8 @@ a:hover {
 .profile-card-loc {
   display: flex;
   justify-content: center;
-  margin: 10px, 0px;
+  align-items: center;
+  padding: 10px 0px;
   font-size: 18px;
   font-weight: 600;
   color: #D2D2D2
