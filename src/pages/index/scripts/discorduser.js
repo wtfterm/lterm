@@ -1,5 +1,5 @@
 //took insp from belvin (skidded 30% of it)
-import LanyardClient from "../../scripts/lanyardClient.js";
+import LanyardClient from "../../../../scripts/lanyardClient.js";
       
 
 const state = document.getElementById("state");
