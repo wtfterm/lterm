@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto+Condensed:wght@500&display=swap');
+
 html {
   position: relative;
   overflow-x: hidden !important;
@@ -26,7 +28,13 @@ a:hover {
   stroke: currentColor;
   fill: currentColor;
 }
+.profile-card-loc__icon #albumimage{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
 
+}
 .wrapper {
   width: 100%;
   width: 100%;
@@ -77,10 +85,8 @@ a:hover {
   margin-right: auto;
   transform: translateY(-50%);
   border-radius: 50%;
-  overflow: hidden;
   position: relative;
   z-index: 4;
-  box-shadow: 0px 5px 15px 0px #4600f8, 0px 0px 0px 7px rgba(70, 0, 248, 0.5);
 }
 @media screen and (max-width: 576px) {
   .profile-card__img {
@@ -122,6 +128,7 @@ a:hover {
   align-items: center;
   font-size: 18px;
   font-weight: 600;
+  color: #D2D2D2
 }
 .profile-card-loc__icon {
   display: inline-flex;
@@ -374,4 +381,106 @@ a:hover {
   background: rgba(22, 33, 72, 0.35);
   border-radius: 12px;
   transition: all 0.3s;
+}
+
+.profile-card__img .card-status-online {
+  position: relative;
+  background: #3ba55d;
+  border: 9px solid #2b2d31;
+  border-radius: 50%;
+  margin: -40px 7.5px;
+  height: 45px;
+  width: 45px;
+  z-index: 999;
+  float: right;
+}
+.profile-card__img .card-status-dnd {
+    position: relative;
+    background: #ed4245;
+    border: 9px solid #2b2d31;
+    border-radius: 50%;
+    margin: -40px 7px;
+    height: 45px;
+    width: 45px;
+    z-index: 99;
+    float: right;
+}
+.profile-card__img .card-status-dnd:before{
+  content: " ";
+  width: 22px;
+  margin: 11px 2px;
+  position: absolute;
+  border-bottom-color: #2b2d31;
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-radius: 8px;
+}
+
+.profile-card__img .card-status-idle {
+    position: relative;
+    background: #faa81a;
+    border: 9px solid #2b2d31;
+    border-radius: 50%;
+    margin: -40px 7.5px;
+    height: 45px;
+    width: 45px;
+    z-index: 99;
+    float: right;
+}
+
+.profile-card__img .card-status-idle:before {
+    content: "";
+    width: 6px;
+    height: 4px;
+    margin: -2px;
+    position: absolute;
+    border-color: #2b2d31;
+    border-width: 0.5em;
+    border-style: solid;
+    border-radius: 50%;
+    background: #2b2d31;
+}
+
+.profile-card__img .card-status-offline {
+    position: relative;
+    background: #2b2d31;
+    border: 9px solid #2b2d31;
+    border-radius: 50%;
+    margin: -40px 7.5px;
+    height: 45px;
+    width: 45px;
+    z-index: 99;
+    float: right;
+}
+.profile-card__img .card-status-offline:before {
+    content: "";
+    margin: -3px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    border-color: #747f8d;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 50%;
+    background: #2b2d31;
+}
+.statetxt {
+    font-family: Nunito;
+    font-size: 24px;
+}
+
+.text-green-500{
+    color: #3ba55d
+}
+
+.text-red-500{
+    color: #ed4245
+}
+
+.text-yellow-500{
+    color: #faa81a
+}
+
+.text-gray-500{
+    color: #747f8d
 }
