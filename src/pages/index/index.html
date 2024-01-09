@@ -21,23 +21,23 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="wrapper">
+  <script src="./scripts/discorduser.js"></script>
   <div class="profile-card js-profile-card">
     <div class="profile-card__img">
       <img src="./images/pfp.jpg" alt="profile card">
+      <div class="card-status-offline" id="statusdiv"></div>
     </div>
 
     <div class="profile-card__cnt js-profile-cnt">
       <div class="profile-card__name">Terminal</div>
-      <div class="profile-card__txt">Guy who codes for fun.</div>
+      <div id="state" class="statetxt text-gray-500">Offline</div>
       <div class="profile-card-loc">
         <span class="profile-card-loc__icon">
-          <svg class="icon">
-            <use xlink:href="#icon-location"></use>
-          </svg>
+          <img src="./images/sadicon.png" id="albumimage"/>
         </span>
 
-        <span class="profile-card-loc__txt">
-          United States of America
+        <span class="songtext" id="nowplaying">
+          Not Playing Anything Right Now.
         </span>
       </div>
       <div class="profile-card-social">
@@ -89,7 +89,7 @@
           </span>
         </a>
 
-        <a href="http://lterm.lol/" class="profile-card-social__item link" target="_blank">
+        <a href="https://lterm.lol/" class="profile-card-social__item link" target="_blank">
           <span class="icon-font">
             <svg class="icon">
               <use xlink:href="#icon-link"></use>
@@ -174,7 +174,7 @@
       </symbol>
     </defs>
   </svg>
-<!-- partial -->
+</div>
   
 </body>
 </html>
