@@ -127,6 +127,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px, 0px;
   font-size: 18px;
   font-weight: 600;
   color: #D2D2D2
