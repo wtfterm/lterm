@@ -129,7 +129,9 @@ a:hover {
   align-items: center;
   font-size: 18px;
   font-weight: 600;
-  color: #D2D2D2
+  color: #D2D2D2;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 .profile-card-loc__icon {
   display: inline-flex;
@@ -164,7 +166,6 @@ a:hover {
   margin-top: 7px;
 }
 .profile-card-social {
-  margin-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
