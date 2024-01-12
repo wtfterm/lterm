@@ -127,11 +127,11 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   color: #D2D2D2;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 .profile-card-loc__icon {
   display: inline-flex;
