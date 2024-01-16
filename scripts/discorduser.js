@@ -9,7 +9,7 @@ const statusdiv = document.getElementById("statusdiv");
 let lastState = "text-gray-500";
 let lastStatus = "card-status-offline";
 const client = new LanyardClient();
-let sock = client.subscribe("969432830952222750");
+let sock = client.subscribe("1196830533309702235");
 
 sock.addEventListener("message", (e) => {
     const data = JSON.parse(e.data);
