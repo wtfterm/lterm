@@ -6,7 +6,7 @@
   --hyperplexed-main-rgb: 41, 121, 255;
   --hyperplexed-main-light-rgb: 56, 182, 255;
   --hyperplexed-secondary-rgb: 42, 252, 152;
-  --font-size: 0.8rem;
+  --font-size: 0.75rem;
   --logo-size: calc(var(--card-size) * 0.3);
 }
 
