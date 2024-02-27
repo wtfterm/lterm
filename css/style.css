@@ -132,12 +132,9 @@ a:hover {
   color: #D2D2D2;
   margin-bottom: 24px;
   margin-top: 24px;
-  position: relative;
 }
 .profile-card-loc__icon {
-  position: absolute;
-  top: 0;
-  left: 5px;
+  display: inline-flex;
   font-size: 27px;
   margin-right: 10px;
   color: #6944ff;
@@ -488,7 +485,4 @@ a:hover {
 
 .text-gray-500{
     color: #747f8d
-}
-.songtext {
-    display: flex;
 }
