@@ -44,9 +44,8 @@ a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-: linear-gradient(110deg, #000000 0%, #3c3c3c 100%);
   display: flex;
-  background: linear-gradient(110deg, #000000 0%, #3c3c3c 100%);
+  background-image: url("https://e0.pxfuel.com/wallpapers/1005/981/desktop-wallpaper-creepy-graveyard-dark-grave.jpg")
 }
 @media screen and (max-width: 768px) {
   .wrapper {
