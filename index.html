@@ -19,18 +19,12 @@
 
 </head>
 <body>
-  <audio controls autoplay loop hidden id="medusa">
-      <source src="./media/medusa.mp3" type="audio/mpeg">
-  </audio>
-  <script>
-    var audio = document.getElementById("medusa");
-    audio.volume = 0.2;
-  </script>
 
 <!-- partial:index.partial.html -->
 <div class="wrapper">
   <script type="module" src="./scripts/discorduser.js"></script>
   <script type="module" src="./scripts/lanyardClient.js"></script>
+  <script src="./scripts/audio.js"></script>
   <div class="profile-card js-profile-card">
     <div class="profile-card__img">
       <img src="./media/pfp.gif" alt="profile card">
