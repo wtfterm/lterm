@@ -125,6 +125,7 @@ a:hover {
   margin-bottom: 15px;
   background-image: var(--usernameEffects);
   text-shadow: var(--colorUsernameGlow);
+  width: fit-content;
 }
 .profile-card__txt {
   font-size: 18px;
