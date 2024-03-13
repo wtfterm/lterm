@@ -510,9 +510,9 @@ a:hover {
 }
 
 .profile_description {
-    align-items: center;
+    align-self: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-self: center;
     text-align: center;
 }
