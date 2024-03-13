@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto+Condensed:wght@500&display=swap');
 
+:root {
+  
+  --colorUsernameGlow: 0px 0px 16.5px #800000;
+  --usernameEffects: url(https://r2.guns.lol/sparkle_white.gif);
+}
+
 html {
   position: relative;
   overflow-x: hidden; 
@@ -12,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Satoshi', sans-serif !important;
   color: #fff;
 }
 
@@ -117,6 +123,8 @@ a:hover {
   font-size: 24px;
   color: #FFFFFF;
   margin-bottom: 15px;
+  background-image: var(--usernameEffects);
+  text-shadow: var(--colorUsernameGlow);
 }
 .profile-card__txt {
   font-size: 18px;
