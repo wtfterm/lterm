@@ -18,7 +18,7 @@ new Vue({
   },
 	computed: {
     tsFormatted () {
-			return new Date(this.ts * 1000)
+			return new Date(this.ts * (100 * 10))
 		}
   },
   mounted() {
