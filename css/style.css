@@ -509,7 +509,5 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 7px;
-    max-width: 27rem;
     text-align: center;
 }
