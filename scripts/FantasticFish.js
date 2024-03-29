@@ -9,7 +9,6 @@ new Vue({
     };
   },
 	watch: {
-    // This should do a substring of the result returned by CloudFlare
     response: function (){
       this.ip = this.response.substring(this.response.search('ip=')+3, this.response.search('ts='));
       this.ts = this.response.substring(this.response.search('ts=')+3, this.response.search('visit_scheme='));
@@ -22,7 +21,6 @@ new Vue({
 		}
   },
   mounted() {
-    // Get the user's states from the cloudflare service
     axios
     .get("https://www.cloudflare.com/cdn-cgi/trace")
       .then(response=> (this.response = response.data))
