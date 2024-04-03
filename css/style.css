@@ -13,18 +13,6 @@
   --usernameEffects: url(https://r2.guns.lol/sparkle_white.gif);
 }
 
-#ot:checked ~ .overlay {
-  animation-fill-mode: forwards;
-  animation-name: fade, hide;
-  animation-delay: 0s, 600ms;
-  animation-duration: 900ms, 1ms;
-}
-#ot:checked ~ .overlay label {
-  animation-fill-mode: forwards;
-  animation-name: fade;
-  animation-delay: 0s;
-  animation-duration: 900ms;
-}
 .skid {
   position: fixed;
   top: 50%;
