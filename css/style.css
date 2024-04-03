@@ -10,6 +10,20 @@
   --usernameEffects: url(https://r2.guns.lol/sparkle_white.gif);
 }
 
+.skid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.term {
+  z-index: 1;
+  background-color: black;
+}
+
 html {
   position: relative;
   overflow-x: hidden; 
