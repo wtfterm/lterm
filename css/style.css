@@ -613,3 +613,7 @@ a:hover {
     opacity: 1;
     transition: opacity 1.5s; 
 }
+
+#thingtofade.fade {
+  opacity: 0;
+}
