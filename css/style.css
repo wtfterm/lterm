@@ -86,6 +86,8 @@ html {
   overflow-y: auto;
 }
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -599,3 +601,9 @@ a:hover {
   font-family: minecraftia;
 }
   
+.hover:checked ~ .term {
+  animation-fill-mode: forwards;
+  animation-name: fade, hide;
+  animation-delay: 0s, 600ms;
+  animation-duration: 900ms, 1ms;
+}
