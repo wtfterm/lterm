@@ -13,6 +13,18 @@
   --usernameEffects: url(https://r2.guns.lol/sparkle_white.gif);
 }
 
+#ot:checked ~ .overlay {
+  animation-fill-mode: forwards;
+  animation-name: fade, hide;
+  animation-delay: 0s, 600ms;
+  animation-duration: 900ms, 1ms;
+}
+#ot:checked ~ .overlay label {
+  animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-delay: 0s;
+  animation-duration: 900ms;
+}
 .skid {
   position: fixed;
   top: 50%;
@@ -39,6 +51,33 @@
   .nothover {
     display: none;
   }
+}
+
+@keyframes fade{
+  to {
+    opacity: 0;
+  }
+}
+@keyframes hide {
+  to {
+    visibility: hidden;
+  }
+  
+}
+span::before {
+  content:'\A';
+  white-space:pre
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  transition:.4s!important;
+  text-shadow: 0 0 0.40em rgb(190, 190, 190);
 }
 
 html {
