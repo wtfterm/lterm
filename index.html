@@ -20,7 +20,14 @@
 </head>
 <body>
 
-<!-- partial:index.partial.html -->
+<div class="term skid">
+  <span class="nothover">click me &gt;_&lt;</span>
+  <span class="hover" onclick="audioPlay();">click me &gt;_&lt;</span>
+</div>
+  
+<audio loop="" preload="auto" id="audio">
+        <source src="media/medusa.mp3" type="audio/mp3">
+</audio>
 <div class="wrapper">
   <script type="module" src="./scripts/discorduser.js"></script>
   <script type="module" src="./scripts/lanyardClient.js"></script>
