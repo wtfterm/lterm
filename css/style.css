@@ -24,6 +24,15 @@
   background-color: black;
 }
 
+@media(hover: hover) {
+  .hover {
+    display: block;
+  }
+  .nothover {
+    display: none;
+  }
+}
+
 html {
   position: relative;
   overflow-x: hidden; 
