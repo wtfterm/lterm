@@ -78,13 +78,13 @@ span::before {
 a:hover {
   transition:.4s!important;
   text-shadow: 0 0 0.40em rgb(190, 190, 190);
-  cursor: url("../cursor.cur");
 }
 
 html {
   position: relative;
   overflow-x: hidden; 
   overflow-y: auto;
+  cursor: url("../cursor.cur"), pointer;
 }
 
 
