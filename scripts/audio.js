@@ -1,3 +1,5 @@
-var audio = new Audio('../media/medusa.mp3');
-audio.play();
-audio.volume = 0.5;
+function audioPlay() {
+  var audio = document.getElementById("audio");
+  audio.volume = 0.5;
+  audio.play();
+}
