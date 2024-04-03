@@ -19,13 +19,6 @@ sock.addEventListener("message", (e) => {
     
     const { d } = data;
     console.log(d);
-    if (d.listening_to_spotify) {
-        const artists = d.spotify.artist.split('; ');
-        nowplaying.innerHTML = `${d.spotify.song} by ${artists.join(", ")}`;
-        albumimg.src = d.spotify.album_art_url;
-    } else {
-        nowplaying.innerHTML = "Not Playing Anything Right Now.";
-    }
 
     if (d.discord_status === "online") {
         state.classList.remove(lastState);
