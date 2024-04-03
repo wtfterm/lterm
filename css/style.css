@@ -608,3 +608,9 @@ a:hover {
 #thingtofade.fade {
   opacity: 0;
 }
+
+.ugh {
+    font-family: minecraftia;
+    font-size: 12px;
+    text-align: center;
+}
