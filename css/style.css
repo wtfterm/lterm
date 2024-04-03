@@ -622,7 +622,7 @@ a:hover {
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
-.container p span.cursor {
+.profile-card__cnt p span.cursor {
   display: inline-block;
   background-color: #ccc;
   margin-left: 0.1rem;
