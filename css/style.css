@@ -608,3 +608,8 @@ a:hover {
   animation-delay: 0s, 600ms;
   animation-duration: 900ms, 1ms;
 }
+
+#thingtofade {
+    opacity: 1;
+    transition: opacity 1.5s; 
+}
