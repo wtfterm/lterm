@@ -2,7 +2,7 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = ["discord.gg/kap", "guns.lol/java", "im a professional skid lmao", "var name = \'term\'; let age = 16;", "well hi there!", "mfqo on discord", "can you donate to my bitcoin pls D:", "if u have a website send it to me, ill skid it."];
-const typingDelay = 150;
+const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
