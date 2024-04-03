@@ -552,6 +552,7 @@ a:hover {
 .statetxt {
     font-family: Nunito;
     font-size: 24px;
+    margin-top: 14px;
 }
 
 .text-green-500{
