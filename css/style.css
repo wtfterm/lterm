@@ -9,7 +9,7 @@
 
 :root {
   
-  --colorUsernameGlow: 0px 0px 16.5px #800000;
+  --colorUsernameGlow: 0px 0px 16.5px #FFFFFF;
   --usernameEffects: url(https://r2.guns.lol/sparkle_white.gif);
 }
 
@@ -185,7 +185,8 @@ a:hover {
   flex-direction: column;
   width: 100%;
 }
-.namecuh {
+.profile-card__name {
+  font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
   margin-bottom: 15px;
