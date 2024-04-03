@@ -1,5 +1,5 @@
 var fadey = document.getElementById('thingtofade');
 
-function CoolThingy {
+function CoolThingy() {
   fadey.classList.toggle('fade');
 }
