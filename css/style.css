@@ -195,6 +195,7 @@ a:hover {
   width: fit-content;
   font-family: minecraftia;
   text-align: center;
+  margin: auto;
 }
 .profile-card__txt {
   font-size: 18px;
