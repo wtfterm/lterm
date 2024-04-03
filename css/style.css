@@ -23,7 +23,12 @@
   z-index: 1;
   background-color: black;
 }
-
+.nothover {
+  display: block;
+}
+.hover {
+  display: none;
+}
 @media(hover: hover) {
   .hover {
     display: block;
