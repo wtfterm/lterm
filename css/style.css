@@ -263,7 +263,7 @@ a:hover {
   justify-content: center;
   color: #fff;
   position: relative;
-  font-size: 48px;
+  font-size: 38px;
   flex-shrink: 0;
   transition: all 0.3s;
 }
@@ -615,9 +615,13 @@ a:hover {
 }
 
 #ethereum:hover {
-    cursor: url("../cursor.cur"), pointer;
+  transition:.4s!important;
+  text-shadow: 0 0 0.40em rgb(190, 190, 190);
+  cursor: url("../cursor.cur"), pointer;
 }
 
 #bitcoin:hover {
-    cursor: url("../cursor.cur"), pointer;
+  transition:.4s!important;
+  text-shadow: 0 0 0.40em rgb(190, 190, 190);
+  cursor: url("../cursor.cur"), pointer;
 }
