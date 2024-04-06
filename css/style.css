@@ -613,3 +613,11 @@ a:hover {
     width: 100vw;
     z-index: -1
 }
+
+#ethereum:hover {
+    cursor: url("../cursor.cur"), pointer;
+}
+
+#bitcoin:hover {
+    cursor: url("../cursor.cur"), pointer;
+}
