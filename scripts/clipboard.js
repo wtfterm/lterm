@@ -1,4 +1,4 @@
 var 
-function myFunction() {
+function clipboardcopy() {
   navigator.clipboard.writeText("hey");
 }
