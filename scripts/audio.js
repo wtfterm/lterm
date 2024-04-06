@@ -1,4 +1,1 @@
-function audioPlay() {
-  var audio = document.getElementById("video");
-  audio.play();
-}
+console.log('hi');
