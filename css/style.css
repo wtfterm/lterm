@@ -65,12 +65,6 @@
   }
   
 }
-
-a#clickythingy:hover {
-    font-size: 32px!important;
-    transition:.4s!important;
-    text-shadow: 0px!important;
-}
     
 span::before {
   content:'\A';
@@ -87,6 +81,12 @@ a:hover {
   transition:.4s!important;
   text-shadow: 0 0 0.40em rgb(190, 190, 190);
   cursor: url("../cursor.cur"), pointer;
+}
+
+#clickythingy:hover {
+    font-size: 32px!important;
+    transition:.4s!important;
+    text-shadow: 0px!important;
 }
 
 html {
