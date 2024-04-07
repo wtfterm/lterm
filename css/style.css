@@ -34,11 +34,11 @@
 .hover {
   display: none;
   background: -webkit-linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  text-shadow: 0 0 0.05em rgb(190, 190, 190);
   -webkit-background-size: 1800% 1800%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
   -webkit-animation: rainbow 18s ease infinite;
+  font-size: 24px;
 }
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
@@ -65,6 +65,13 @@
   }
   
 }
+
+hover:hover {
+    font-size: 32px;
+    transition:.4s!important;
+    text-shadow: 0px!important;
+}
+    
 span::before {
   content:'\A';
   white-space:pre
