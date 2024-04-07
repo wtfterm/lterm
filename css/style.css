@@ -66,7 +66,7 @@
   
 }
 
-#clickythingy:hover {
+a#clickythingy:hover {
     font-size: 32px!important;
     transition:.4s!important;
     text-shadow: 0px!important;
