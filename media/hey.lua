@@ -1,14 +1,13 @@
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
-local Camera = workspace.Camera
+local Camera = workspace.CurrentCamera
 local Typing = false
 _G.ESPVisible = true   -- If set to true then the ESP will be visible and vice versa.
 _G.TextColor = Color3.fromRGB(255, 80, 10)   -- The color that the boxes would appear as.
 _G.DisableKey = Enum.KeyCode.K   -- The key that disables / enables the ESP.
-local getNil = function(name, class) for _, v in next, getnilinstances() do if v.ClassName == class and v.Name == name then return v end end end
 local function CreateESP()
-    for _, v in pairs(getNil("Game", "DataModel").Workspace.__THINGS.__INSTANCE_CONTAINER.Active.Backrooms:GetDescendants()) do
+    for _, v in pairs(workspace.__THINGS.__INSTANCE_CONTAINER.Active.Backrooms) do
         if v.Name == "EggModel" then
             local ESP = Drawing.new("Text")
             RunService.RenderStepped:Connect(function()
